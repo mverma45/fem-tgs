@@ -1,10 +1,106 @@
-.body {
-	background-color: hsl(210, 46%, 95%);
+* {
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-/* .testgrid {
-	background-color: hsl(219, 29%, 14%);
+h1 {
+	text-align: center;
+}
+
+.test {
+	position: relative;
+	background-color: #fff;
+	border-radius: 0.3rem;
+	overflow: hidden;
+	margin: 1.1rem auto;
+	height: 42rem;
+	padding: 1.75rem;
+	width: 35rem;
+}
+
+.test2 {
+	position: relative;
+	background-color: #fff;
+	border-radius: 0.3rem;
+	overflow: hidden;
+	margin: 1.1rem auto;
+	height: 23rem;
+	padding: 1.75rem;
+	width: 35rem;
+}
+
+.test3 {
+	position: relative;
+	background-color: #fff;
+	border-radius: 0.3rem;
+	overflow: hidden;
+	margin: 1.1rem auto;
+	height: 25rem;
+	padding: 1.75rem;
+	width: 35rem;
+}
+
+.test4 {
+	position: relative;
+	background-color: #fff;
+	border-radius: 0.3rem;
+	overflow: hidden;
+	margin: 1.1rem auto;
+	height: 35rem;
+	padding: 1.75rem;
+	width: 35rem;
+}
+
+.test5 {
+	position: relative;
+	background-color: #fff;
+	border-radius: 0.3rem;
+	overflow: hidden;
+	margin: 1.1rem auto;
+	height: 33rem;
+	padding: 1.75rem;
+	width: 35rem;
+}
+
+.highlight {
+	font-size: 2.25em;
+	font-weight: bolder;
+}
+
+/* .quote {
+	display: flex;
+	align-items: flex-end;
 } */
+
+.testimonal {
+	font-weight: 100;
+	color: hsl(210, 46%, 95%);
+}
+
+.testgrid {
+	background-color: hsl(0, 0%, 81%);
+	border-radius: 0.3rem;
+}
+
+img {
+	border-radius: 50%;
+}
+
+.testViolet {
+	background-color: hsl(263, 55%, 52%);
+	color: hsl(0, 0%, 100%);
+}
+
+.testLgray {
+	background-color: hsl(217, 19%, 35%);
+	color: hsl(0, 0%, 100%);
+}
+
+.testBblue {
+	background-color: hsl(219, 29%, 14%);
+	color: hsl(0, 0%, 100%);
+}
 
 .name {
 	font-size: 1.3em;
@@ -16,10 +112,88 @@
 	font-weight: 600;
 }
 
+@media (min-width: 55rem) {
+	.test {
+		position: relative;
+		background-color: #fff;
+		border-radius: 0.3rem;
+		overflow: hidden;
+		margin: 1.1rem auto;
+		height: 30rem;
+		padding: 1.75rem;
+		width: 50rem;
+	}
+
+	.test2 {
+		position: relative;
+		background-color: #fff;
+		border-radius: 0.3rem;
+		overflow: hidden;
+		margin: 1.1rem auto;
+		height: 25rem;
+		padding: 1.75rem;
+		width: 24rem;
+	}
+
+	.test3 {
+		position: relative;
+		background-color: #fff;
+		border-radius: 0.3rem;
+		overflow: hidden;
+		margin: 1.1rem auto;
+		height: 28rem;
+		padding: 1.75rem;
+		width: 24rem;
+	}
+
+	.test4 {
+		position: relative;
+		background-color: #fff;
+		border-radius: 0.3rem;
+		overflow: hidden;
+		margin: 1.1rem auto;
+		height: 26rem;
+		padding: 1.75rem;
+		width: 50rem;
+	}
+
+	.test5 {
+		position: relative;
+		background-color: #fff;
+		border-radius: 0.3rem;
+		overflow: hidden;
+		margin: 1.1rem auto;
+		height: 42rem;
+		padding: 1.75rem;
+		width: 24rem;
+	}
+
+	.highlight {
+		font-size: 1.75rem;
+		font-weight: bolder;
+	}
+
+	.testViolet {
+		background-color: hsl(263, 55%, 52%);
+		color: hsl(0, 0%, 100%);
+	}
+
+	.testLgray {
+		background-color: hsl(217, 19%, 35%);
+		color: hsl(0, 0%, 100%);
+	}
+
+	.testBblue {
+		background-color: hsl(219, 29%, 14%);
+		color: hsl(0, 0%, 100%);
+	}
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;
 }
+
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
