@@ -113,6 +113,15 @@ img {
 }
 
 @media (min-width: 55rem) {
+	.testgrid {
+		display: grid;
+		height: 110rem;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		gap: 1rem;
+		padding-top: 1rem;
+	}
+
 	.test {
 		position: relative;
 		background-color: #fff;
