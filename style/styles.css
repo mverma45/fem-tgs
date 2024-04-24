@@ -116,10 +116,10 @@ img {
 	.testgrid {
 		display: grid;
 		height: 110rem;
-		grid-template-columns: repeat(2, 1fr);
-		grid-template-rows: repeat(2, 1fr);
-		gap: 1rem;
-		padding-top: 1rem;
+		grid-template-columns: (2, 4fr);
+		grid-template-rows: (2, 4fr);
+		/* gap: 0.25rem;
+		padding-top: 0.1rem; */
 	}
 
 	.test {
@@ -129,19 +129,23 @@ img {
 		overflow: hidden;
 		margin: 1.1rem auto;
 		height: 30rem;
-		padding: 1.75rem;
+		padding: 0.75rem;
 		width: 50rem;
+		grid-column: 1;
+		grid-row: 1;
 	}
 
 	.test2 {
 		position: relative;
 		background-color: #fff;
 		border-radius: 0.3rem;
-		overflow: hidden;
-		margin: 1.1rem auto;
+		/* overflow: hidden;
+		margin: 1.1rem auto; */
 		height: 25rem;
-		padding: 1.75rem;
+		/* padding: 0.75rem; */
 		width: 24rem;
+		grid-column: 2;
+		grid-row: 1;
 	}
 
 	.test3 {
@@ -153,6 +157,8 @@ img {
 		height: 28rem;
 		padding: 1.75rem;
 		width: 24rem;
+		grid-column: 1;
+		grid-row: 2;
 	}
 
 	.test4 {
@@ -175,6 +181,8 @@ img {
 		height: 42rem;
 		padding: 1.75rem;
 		width: 24rem;
+		grid-column: 2;
+		grid-row: 6;
 	}
 
 	.highlight {
