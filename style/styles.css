@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Roboto&display=swap');
+
+.barlow-semi-condensed-medium {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.barlow-semi-condensed-semibold {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.roboto-regular {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
 * {
 	border: 0;
 	padding: 0;
@@ -8,34 +28,44 @@ h1 {
 	text-align: center;
 }
 
+.testgrid {
+	padding: 0.75em;
+	margin: 0.25em;
+}
+
 .test {
 	background-color: #fff;
 	border-radius: 0.3rem;
-	padding: 1.75rem;
+	padding: 0.75em;
+	margin: 1em;
 }
 
 .test2 {
 	background-color: #fff;
 	border-radius: 0.3rem;
-	padding: 1.75rem;
+	padding: 0.75em;
+	margin: 1em;
 }
 
 .test3 {
 	background-color: #fff;
 	border-radius: 0.3rem;
-	padding: 1.75rem;
+	padding: 0.75em;
+	margin: 1em;
 }
 
 .test4 {
 	background-color: #fff;
 	border-radius: 0.3rem;
-	padding: 1.75rem;
+	padding: 0.75em;
+	margin: 1em;
 }
 
 .test5 {
 	background-color: #fff;
 	border-radius: 0.3rem;
-	padding: 1.75rem;
+	padding: 0.75em;
+	margin: 1em;
 }
 
 .highlight {
@@ -87,7 +117,8 @@ img {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		grid-template-rows: repeat(5rem, 1fr);
-		padding: 1rem 1rem 1rem 1rem;
+		/* top | right | bottom | left */
+		padding: 5rem;
 	}
 
 	.test {
