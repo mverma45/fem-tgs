@@ -1,22 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Roboto&display=swap');
 
-.barlow-semi-condensed-medium {
-	font-family: 'Barlow Semi Condensed', sans-serif;
-	font-weight: 500;
-	font-style: normal;
-}
-
-.barlow-semi-condensed-semibold {
-	font-family: 'Barlow Semi Condensed', sans-serif;
-	font-weight: 600;
-	font-style: normal;
-}
-
-.roboto-regular {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
-	font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 * {
 	border: 0;
@@ -24,58 +8,46 @@
 	box-sizing: border-box;
 }
 
+.testHero {
+	font-size: 4rem;
+	color: hsl(217, 19%, 35%);
+	font-family: 'Pacifico', cursive;
+	margin: 0 0;
+}
+
 h1 {
 	text-align: center;
 }
 
-.testgrid {
-	padding: 0.75em;
-	margin: 0.25em;
-}
-
 .test {
-	background-color: #fff;
 	border-radius: 0.3rem;
 	padding: 0.75em;
 	margin: 1em;
+	background-image: url('../images/bg-pattern-quotation.svg');
+	background-position: top right 5rem;
+	background-repeat: no-repeat;
 }
 
-.test2 {
-	background-color: #fff;
-	border-radius: 0.3rem;
-	padding: 0.75em;
-	margin: 1em;
-}
-
-.test3 {
-	background-color: #fff;
-	border-radius: 0.3rem;
-	padding: 0.75em;
-	margin: 1em;
-}
-
-.test4 {
-	background-color: #fff;
-	border-radius: 0.3rem;
-	padding: 0.75em;
-	margin: 1em;
-}
-
+.test2,
+.test3,
+.test4,
 .test5 {
-	background-color: #fff;
 	border-radius: 0.3rem;
 	padding: 0.75em;
 	margin: 1em;
 }
 
 .highlight {
-	font-size: 2.25em;
+	font-size: 1.25em;
 	font-weight: bolder;
 }
 
 .testimonal {
 	font-weight: 100;
 	color: hsl(210, 46%, 95%);
+}
+
+.testimonal {
 }
 
 .testgrid {
@@ -103,25 +75,31 @@ img {
 }
 
 .name {
-	font-size: 1.3em;
+	font-size: 1em;
 	font-weight: 700;
 }
 
 .verified {
-	font-size: 1em;
+	font-size: 0.7em;
 	font-weight: 600;
 }
 
 @media (min-width: 55rem) {
 	.testgrid {
 		display: grid;
+		padding: 1rem;
+		margin-top: 2rem;
+		width: 126%;
 		grid-template-columns: repeat(4, 1fr);
-		grid-template-rows: repeat(5rem, 1fr);
-		/* top | right | bottom | left */
-		padding: 0.75rem;
+		grid-template-rows: repeat(3, 1fr);
+		grid-column-gap: 0.05rem;
+		grid-row-gap: 0.05rem;
 	}
 
 	.test {
+		background-image: url('../images/bg-pattern-quotation.svg');
+		background-position: top right 5rem;
+		background-repeat: no-repeat;
 		background-color: #fff;
 		border-radius: 0.3rem;
 		padding: 0.75rem;
