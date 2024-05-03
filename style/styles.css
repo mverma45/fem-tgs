@@ -50,6 +50,7 @@ h1 {
 .testgrid {
 	background-color: hsl(0, 0%, 81%);
 	border-radius: 0.3rem;
+	padding: 1em;
 }
 
 img {
@@ -73,6 +74,7 @@ img {
 }
 
 .testWhite {
+	background-color: hsl(0, 0%, 100%);
 	font-size: 1.5em;
 }
 
@@ -86,9 +88,11 @@ img {
 	font-weight: 600;
 }
 
-@media (min-width: 70rem) {
+@media (min-width: 75em) {
 	.testgrid {
 		display: grid;
+		/* height: 270vh; */
+		padding: 1em;
 		grid-template-columns: repeat(4);
 		grid-template-rows: repeat(3);
 	}
